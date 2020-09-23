@@ -9,24 +9,31 @@ Lesson2 --> Setup AWS Access Key & Secret Key
 
 3. Go to the ubuntu UDF Shell and configure the following
 
-```    export AWS_ACCESS_KEY_ID="XXXXXXXXXXXXXX"```
+```    aws configure``` 
 
-```    export AWS_SECRET_ACCESS_KEY="XXXXXXXXXXXXXX" ```
+```    AWS Access Key ID [****************CGGT]:XXXXXXXXXXXXX```
 
-- Subscribe to F5 BIG-IP 
+```    AWS Secret Access Key [****************QmTY]:XXXXXXXXXXX``` 
+
+
 
 4. Go to Blue Print on the UDF and click on Console URL link use the Console PAssword and username as udf
 
-5. Click on AWS Services and Click AWS Marketplace Subscriptions
+5. Change directory to ```cd consul-tg-env``` and execute ```make all```
 
-6. Click on https://console.aws.amazon.com/marketplace/home?region=us-west-2#/subscriptions/U1VCU0NSSVBUSU9OQEBAOTI5Y2EwZDgtYzJkNy00MDY4LThmOWEtZWI3NWE2NzdhZmVk
+.. image:: /_static/makefail.png
+
+6. Login to AWS Console by going to UDF Blueprint --> Cloud Accounts --> Console URL
+
+7. Use the https link above ```OptInRequired: In order to use this AWS Marketplace product you Error```
+
+8. Click on https://console.aws.amazon.com/marketplace/home?region=us-west-2#/subscriptions/U1VCU0NSSVBUSU9OQEBAOTI5Y2EwZDgtYzJkNy00MDY4LThmOWEtZWI3NWE2NzdhZmVk
 
                       or
 
  search for F5 BIG-IP Virtual Edition - BEST (PAYG, 1Gbps)
 
-7. Sunsbcribe to the trial service and Accept all terms.
+9. Sunsbcribe to the trial service and Accept all terms.
 
-.. note:: If you are new to the F5 BIG-IP platform, we have created an overview
-   in the BIG-IP Basics section.
+.. note:: Give like 2 mintutes and make sure you have subscribed to the F5 BIG-IP
 

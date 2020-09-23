@@ -11,6 +11,16 @@ BIG-IP Terminating Gateway with Consul Connect
    :glob:
    :caption: Contents:
 
-   lesson*/lesson*
+   lesson1/lesson1
+   lesson2/lesson2
+   lesson3/lesson3
+   lesson4/lesson4
+   lesson5/lesson5
+   lesson6/lesson6
+   lesson7/lesson7
+   lesson8/lesson8
+   lesson9/lesson9
    lesson10/lesson10
+   lesson11/lesson11
+   lesson12/lesson12
 
