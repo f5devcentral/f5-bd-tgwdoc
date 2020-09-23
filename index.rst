@@ -4,7 +4,7 @@
    contain the root `toctree` directive
 
 BIG-IP Terminating Gateway with Consul Connect 
-===============================================
+==============================================
 
 .. toctree::
    :maxdepth: 2
